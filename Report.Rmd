@@ -1,0 +1,35 @@
+---
+title: "Reviewing the legitimacy of provincial elections in Gilgit-Baltistan"
+author: "Khizer Asad"
+date: "09/12/2020"
+output:
+  bookdown::pdf_document2:
+    citation_package: natbib
+bibliography: references.bib
+abstract: 
+subtitle: A sentiment analysis on political parties via Twitter
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+Elections for the provincial assembly of Gilgit-Baltistan, a Pakistani administrative territory, were held on the 15 November 2020. The election saw the current federal ruling party, Pakistan Tehreek-e-Insaf (PTI), win a minority government with 22 seats. However opposition leader Billawal Bhutto from the Pakistan People's Party (PPP) claims that there was election rigging and PPP were the true victors of the election (@rig). There is a long history of election fraud and rigging in Pakistan, which have called in to question the legitimacy of the state's democratically elected officials, and this most recent election is not an isolated incident (@hist).
+
+Although sometimes censored, Pakistani citizens largely have freedom of speech on social media platforms. Looking at publicly available posts on social media made by Pakistanis can provide us with a glimpse in to people's true opinions. So to shed light on the legitimacy of the recent elections, political sentiments will be collected via public posts on Twitter and analyzed. By collecting tweets made in Gilgit-Baltistan leading up to the election, and conducting a sentiment analysis on them we can find the true political sentiments of Pakistanis. 
+
+We begin by outlining the data collection process and reviewing the features of said data. Then by preforming a regression discontinuity analysis we observe the differences in sentiments towards PTI and PPP and their respective leaders. Using these results we can perhaps extrapolate the true outcome of the election and determine if they were fairly held.
+
+# Data
+
+# Results 
+
+# Discussion 
+
+
+[all code can be found here](https://github.com/KhizerA/Twitter)
+
+Complied using R Markdown (@rmr).
